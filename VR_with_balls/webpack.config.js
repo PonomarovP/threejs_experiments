@@ -17,7 +17,7 @@ module.exports = {
         bundle: path.resolve(__dirname, './src/app.js')
     },
     output: {
-        path: path.join(rootDir, 'dist'),
+        path: path.join(projDir, 'dist'),
         filename: 'app.bundle.js'
     },
     plugins: [new HtmlWebpackPlugin()]
