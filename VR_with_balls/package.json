@@ -1,0 +1,21 @@
+{
+  "name": "vr_with_balls",
+  "version": "1.0.0",
+  "description": "VR experiment with balls",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch | webpack-dev-server --port 8080 --hot --progress --colors --inline",
+    "prod": "webpack -p"
+  },
+  "author": "Pavlo <pavlo.ponomarov@fhws.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "three": "^0.84.0",
+    "three-orbit-controls": "^82.1.0"
+  }
+}
